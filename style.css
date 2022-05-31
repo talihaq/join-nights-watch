@@ -1,0 +1,132 @@
+/* overall styles */
+
+body {
+    background-color: #2D2F3B;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #282f44;
+    border: 2px solid #4FB66C;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 10px 10px #0E101B;
+    text-align: center;
+    max-width: 600px;
+    margin: 3%;
+}
+
+/* form styles */
+
+fieldset,
+select,
+button {
+    border: none;
+}
+
+select,
+input {
+    padding: 5px 10px;
+}
+
+button {
+    padding: 6px 26px;
+    margin: 10px auto;
+}
+
+select,
+button {
+    background-color: #a0d2db;
+    border-radius: 10px;
+
+}
+
+input {
+    background-color: #67697c;
+    border-radius: 5px;
+}
+
+select,
+input {
+    margin-top: 10px;
+}
+
+select:hover,
+button:hover,
+input:hover {
+    background-color: #B5BB7B;
+}
+
+input,
+button:active {
+    border: 2px solid #dcdcdc;
+}
+
+/* text styles */
+
+p,
+input,
+button,
+label,
+select,
+a {
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+p,
+label {
+    color: #dcdcdc;
+}
+
+h1 {
+    color: #4FB66C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+}
+
+a {
+    color: #953D97;
+}
+
+span, a:hover {
+    color: #a0d2db;
+}
+
+a:active {
+    color: #4FB66C;
+}
+
+input,
+select,
+button,
+::placeholder {
+    color: #0E101B;
+}
+
+::placeholder {
+    text-align: center;
+}
+
+/* breakpoints */
+
+@media (max-width: 600px) {
+
+    p,
+    input,
+    button,
+    label,
+    select {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 24px;
+    }
+}
